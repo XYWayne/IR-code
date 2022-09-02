@@ -67,3 +67,9 @@ Report Mean, Median, 95% time per query:
 ```
 $ /usr/bin/python3 /home/xiyue/visualize/report.py [resultfile]
 ```
+### 5.Some File you might like to look into
+```
+$ /home/xiyue/ATIRE/source/ranking_function_impact.c    \\ how term frequency is generated.
+$ /home/xiyue/ATIRE/source/ranking_function.c           \\ where the author cap term frequency at 255.
+$ /home/xiyue/JASS/jass.c                               \\ changing buffer size from 1024 would result in decrease of score.
+```
