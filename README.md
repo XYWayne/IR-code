@@ -1,5 +1,11 @@
 # IR-code
 
+### Halved Unicoil Collection
+```
+PATH = '/nvme/xiyue/JASS_unicoil/collection_JASS_half_Unicoil.trec'
+```
+The term frequency of each word has been halved. To test, replace the original collection file with the file above in step 1.
+
 ### 1. Build ATIRE Index
 ```
 $ cd /home/xiyue/ATIRE
